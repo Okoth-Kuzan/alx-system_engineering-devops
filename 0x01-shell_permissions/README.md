@@ -9,5 +9,5 @@ Shell, permissions
 8. chmod ugo+x script adds execution permission to the owner, the group owner and the other users, to the file hello
 9. chmod 007 script sets the permission to the file hello as follows:Owner no permission,Group no permission,but all the permissions to other user
 10. chmod 753 script sets the mode of the file hello to;-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
-11. chmod --reference-olleh hello script t sets the mode of the file hello the same as olleh’s mode
+11. chmod --reference-olleh hello script sets the mode of the file hello the same as olleh’s mode
 12. chmod -R +x. script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
